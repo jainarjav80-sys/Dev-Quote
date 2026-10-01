@@ -2,8 +2,6 @@
 
 A curated, high-performance developer cheat sheet wall featuring interactive 3D flippable reference cards for Git, Docker, Linux, JavaScript, CSS, SQL, and Regex snippets.
 
-Built with an **obsidian dark theme**, **zero emojis**, and **developer-focused ergonomics**.
-
 ---
 
 ## Overview

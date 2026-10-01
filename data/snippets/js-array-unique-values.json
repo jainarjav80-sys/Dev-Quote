@@ -1,0 +1,14 @@
+{
+  "id": "js-array-unique-values",
+  "title": "Deduplicate Array of Primitive Values via Set",
+  "category": "JavaScript",
+  "tags": ["javascript", "arrays", "data-structures", "set", "es6"],
+  "code": "const uniqueList = [...new Set(duplicateArray)];",
+  "language": "javascript",
+  "explanation": "Converts an array to an ES6 Set to strip out duplicate primitive elements, then spreads the Set back into a new array.",
+  "caveat": "Only works on primitives (strings, numbers). For arrays of objects with identical keys, use .filter() with a Map.",
+  "author": {
+    "name": "Your Name",
+    "github": "your-github-username"
+  }
+}
