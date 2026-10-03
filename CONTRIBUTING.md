@@ -68,10 +68,10 @@ Every snippet file must adhere to this JSON format:
 #### Field Reference:
 - `id` *(string, required)*: Unique kebab-case identifier matching filename.
 - `title` *(string, required)*: Concise, clear summary of what the snippet accomplishes.
-- `category` *(string, required)*: One of `Git`, `Docker`, `Linux`, `JavaScript`, `CSS`, `SQL`, or `Regex`.
+- `category` *(string, required)*: One of `Git`, `Docker`, `Linux`, `JavaScript`, `Python`, `CSS`, `SQL`, or `Regex`.
 - `tags` *(array of strings, required)*: 3–6 lowercase search tags.
 - `code` *(string, required)*: The exact executable command or code block.
-- `language` *(string, required)*: `bash`, `javascript`, `typescript`, `css`, `sql`, or `regex`.
+- `language` *(string, required)*: `bash`, `javascript`, `typescript`, `python`, `css`, `sql`, or `regex`.
 - `explanation` *(string, required)*: 1–3 sentences explaining how it works and when to use it.
 - `caveat` *(string, optional/recommended)*: Crucial warnings, destructive behavior notes, or browser compatibility nuances.
 - `variations` *(array of objects, optional)*: Related flags, dry-run variations, or platform-specific equivalents.
