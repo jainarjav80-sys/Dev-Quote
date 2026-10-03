@@ -8,7 +8,7 @@
   "explanation": "Cleans data by removing rows where critical columns are missing while imputing statistical averages or medians for numerical columns.",
   "caveat": "Always verify distribution shapes before mean or median imputation to avoid skewing data distributions.",
   "author": {
-    "name": "jainarjav80-sys",
-    "github": "jainarjav80-sys"
+    "name": "satheesh kumar",
+    "github": "satheesh142002"
   }
 }
