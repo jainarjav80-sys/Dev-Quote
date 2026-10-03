@@ -1,0 +1,14 @@
+{
+  "id": "python-pandas-handle-nulls",
+  "title": "Drop or Impute Missing NaN Values in Pandas DataFrame",
+  "category": "Python",
+  "tags": ["python", "pandas", "data-cleaning", "data-science", "analytics"],
+  "code": "df = df.dropna(subset=['email'])\ndf['age'] = df['age'].fillna(df['age'].median())",
+  "language": "python",
+  "explanation": "Cleans data by removing rows where critical columns are missing while imputing statistical averages or medians for numerical columns.",
+  "caveat": "Always verify distribution shapes before mean or median imputation to avoid skewing data distributions.",
+  "author": {
+    "name": "satheesh kumar",
+    "github": "satheesh142002"
+  }
+}

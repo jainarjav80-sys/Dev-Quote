@@ -6,8 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const snippetsDir = path.resolve(__dirname, '../data/snippets');
-const allowedCategories = ['Git', 'Docker', 'Linux', 'JavaScript', 'CSS', 'SQL', 'Regex'];
-const allowedLanguages = ['bash', 'javascript', 'typescript', 'css', 'sql', 'regex'];
+const allowedCategories = ['Git', 'Docker', 'Linux', 'JavaScript', 'Python', 'CSS', 'SQL', 'Regex'];
+const allowedLanguages = ['bash', 'javascript', 'typescript', 'python', 'css', 'sql', 'regex'];
 
 // Regex matching common emojis
 const emojiPattern = /[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/u;
