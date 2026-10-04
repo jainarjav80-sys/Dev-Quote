@@ -4,7 +4,7 @@
 
 **A curated, high-performance developer cheat sheet wall with interactive 3D flippable reference cards.**
 
-Git, Docker, Linux, JavaScript, CSS, SQL, and Regex snippets. Searchable, copyable, and explained in seconds.
+Git, Docker, Linux, JavaScript, CSS, SQL, Regex, and Python snippets. Searchable, copyable, and explained in seconds.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -228,7 +228,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the full JSON schema, validat
 
 ## Roadmap
 
-- [ ] More categories (Python, Kubernetes, Bash, TypeScript)
+- [ ] More categories (Kubernetes, Bash, TypeScript)
 - [ ] Shareable deep links to individual cards
 - [ ] Export bookmarked snippets
 - [ ] Light theme option
